@@ -1,5 +1,6 @@
 <template>
     <div class="container">
+        <h1>Registro</h1>
         <form>
             <div class="row mb-3">
                 <label for="name" class="col-sm-2 col-form-label">Nombre</label>
@@ -76,5 +77,21 @@
 </script>
 
 <style scoped>
+.container{
+    margin-top: 20px;
+    width: 400px;
+    padding:10px;
+    margin: 2em auto;
+    background-color: #2596be;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 10px 5px 5px black;
+}
 
+h1{
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+}
 </style>

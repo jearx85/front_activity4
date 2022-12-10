@@ -52,7 +52,7 @@
                 localStorage.setItem('rol', data.rol)
                 //console.log(localStorage.getItem('token'));
                 //console.log(localStorage.getItem('rol'));
-                //console.log(data.rol);
+                console.log(data.user);
 
                 if(data.token && data.rol == 1){
                    this.$router.replace({path: '/programs'});
@@ -63,7 +63,6 @@
                     alert('Usuario o contraseña incorrecta')
                 }
                  
-              
             }
         }
 }
@@ -71,15 +70,22 @@
 </script>
 
 
-<style>
+<style scoped>
 .container{
     margin-top: 20px;
     width: 400px;
-    height: 800px;
+    padding:10px;
     margin: 2em auto;
+    background-color: #2596be;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 10px 5px 5px black;
 }
 
 h1{
     text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
 }
 </style>
