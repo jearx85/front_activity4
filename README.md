@@ -1,3 +1,15 @@
+# Creado por Jeisson Estevens Araque Ramirez-PREELEC2202PC-TDS0033
+## Opcion elegida: 1.
+
+### Paso 1:
+- Crear la base de datos.
+- Hacer la migration para crear las tablas.
+- crear los roles en la base de datos: INSERT INTO roles (id, name) values (1, 'admin'), (2, 'user');
+### Paso 2:
+- Crear los semestres en la base de datos: INSERT INTO semester (id) VALUES(1),(2);
+
+Para los usuarios la pgina tiene apartado de registro donde se puede registrar usuarios y escoger el perfil.
+
 # front_api_vue
 
 This template should help get you started developing with Vue 3 in Vite.
